@@ -1,0 +1,166 @@
+At the annual meeting of Board of Directors of Acme Inc. If everyone attending shakes hands exactly one time with every other attendee, how many handshakes are there?
+
+
+
+Example
+
+n=3
+
+
+
+There are 3  attendees,p1,p2 and p3.  P1 shakes hands with  p2 and p3 , and p2  shakes hands with p3 . Now they have all shaken hands after 3 handshakes.
+
+
+
+Function Description
+
+
+
+Complete the handshakes function in the editor below.
+
+
+
+Handshakes has the following parameter:
+
+
+
+Int n: the number of attendees
+
+Returns
+
+
+
+Int: the number of handshakes
+
+Input Format
+
+The first line contains the number of test cases t.
+
+Each of the following  lines contains an integer, n.
+
+
+
+Constraints
+
+1<=t<=1000
+
+0<n<10^6
+
+Sample Input
+
+2
+
+1
+
+2
+
+Sample Output
+
+0
+
+1
+
+INPUT:
+
+Def handshakes(n):
+
+
+
+    Return (n * (n – 1)) // 2
+
+
+
+T = int(input().strip())
+
+
+
+For _ in range(t):
+
+
+
+    N = int(input().strip())
+
+
+
+    Result = handshakes(n)
+
+
+
+    Print(result)#!/bin/python3
+
+
+
+Import math
+
+
+
+Import os
+
+
+
+Import random
+
+
+
+Import re
+
+
+
+Import sys
+
+
+
+#
+
+
+
+# Complete the ‘handshake’ function below.
+
+
+
+#
+
+
+
+# The function is expected to return an INTEGER.
+
+
+
+# The function accepts INTEGER n as parameter.
+
+
+
+#
+
+
+
+ 
+
+
+
+Def handshakes(n):
+
+
+
+    Return (n * (n – 1)) // 2
+
+
+
+T = int(input().strip())
+
+
+
+For _ in range(t):
+
+
+
+    N = int(input().strip())
+
+
+
+    Result = handshakes(n)
+
+
+
+    Print(result)
+
