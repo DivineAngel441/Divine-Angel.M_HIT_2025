@@ -1,0 +1,130 @@
+#!/bin/python3
+
+
+
+Import math
+
+Import os
+
+Import random
+
+Import re
+
+Import sys
+
+
+
+#
+
+# Complete the ‘gameWithCells’ function below.
+
+#
+
+# The function is expected to return an INTEGER.
+
+# The function accepts following parameters:
+
+#  1. INTEGER n
+
+#  2. INTEGER m
+
+#
+
+
+
+#!/bin/python3
+
+
+
+Import math
+
+
+
+Import os
+
+
+
+Import random
+
+
+
+Import re
+
+
+
+Import sys
+
+
+
+#
+
+
+
+# Complete the ‘handshake’ function below.
+
+
+
+#
+
+
+
+# The function is expected to return an INTEGER.
+
+
+
+# The function accepts INTEGER n as parameter.
+
+
+
+#
+
+INPUT:
+
+    
+
+def gameWithCells(n, m):
+
+
+
+    # Write your code here
+
+
+
+    Packages = math.ceil(n / 2) * math.ceil(m / 2)
+
+
+
+    Return packages
+
+
+
+If __name__ == ‘__main__’:
+
+
+
+    Fptr = open(os.environ[‘OUTPUT_PATH’], ‘w’)
+
+
+
+    First_multiple_input = input().rstrip().split()
+
+
+
+    N = int(first_multiple_input[0])
+
+
+
+    M = int(first_multiple_input[1])
+
+
+
+    Result = gameWithCells(n, m)
+
+
+
+    Fptr.write(str(result) + ‘\n’)
+
+
+
+    Fptr.close()
+
